@@ -4,13 +4,13 @@
 PROJECT_NAME := provider-azuredevops
 PROJECT_REPO := github.com/r3drun3/$(PROJECT_NAME)
 
-export TERRAFORM_VERSION := 1.3.5
+export TERRAFORM_VERSION := 1.5.1
 
 export TERRAFORM_PROVIDER_SOURCE := microsoft/azuredevops
 export TERRAFORM_PROVIDER_REPO := https://github.com/microsoft/terraform-provider-azuredevops
-export TERRAFORM_PROVIDER_VERSION := 0.3.0
+export TERRAFORM_PROVIDER_VERSION := 0.10.0
 export TERRAFORM_PROVIDER_DOWNLOAD_NAME := terraform-provider-azuredevops
-export TERRAFORM_NATIVE_PROVIDER_BINARY := terraform-provider-azuredevops_v0.3.0_x5
+export TERRAFORM_NATIVE_PROVIDER_BINARY := terraform-provider-azuredevops_v0.10.0_x5
 export TERRAFORM_DOCS_PATH := docs/
 
 PLATFORMS ?= linux_amd64 linux_arm64
